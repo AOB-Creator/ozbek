@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/GraphikLCWeb-Regular.d99870f5.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/GraphikLCWeb-Bold.32619076.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Graphik';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/GraphikLCWeb-RegularItalic.399a7b03.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Graphik';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/GraphikLC-LightItalic-Web.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Spectral-Regular-Web.8a5f13a6.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/spectral-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/spectral-light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Spectral';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/spectral-lightitalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fonts/Spectral-ExtraBold-Web.c8ab9807.woff2") format("woff2");
+}

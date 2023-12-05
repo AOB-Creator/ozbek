@@ -1,0 +1,77 @@
+.carousel_1_small {
+    margin: 0 auto;
+    position: relative;
+}
+    .carousel_1_small .carousel-indicators_1_small {
+        position: absolute;
+        bottom: 9px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 15;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        list-style: none;
+    }
+        .carousel_1_small .carousel-indicators_1_small li {
+            flex: 0 1 auto;
+            width: 10px;
+            height: 10px;
+            margin-right: 5px;
+            margin-left: 5px;
+            cursor: pointer;
+            background-color: #e6e6e6;
+            border-radius: 50%;
+        }
+        .carousel_1_small .carousel-indicators_1_small .active {
+            background-color: #343a40;
+        }
+    .carousel_1_small .carousel-window_1_small {
+        position: relative;
+        overflow: hidden;
+    }
+    .carousel_1_small .carousel-slides_1_small {
+        height: 100%;
+        display: flex;
+        transition: transform 1s;
+    }
+    .carousel_1_small .carousel-item_1_small {
+        height: 100%;
+    }
+        .carousel_1_small .carousel-item_1_small img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    .carousel_1_small .carousel-prev_1_small, .carousel_1_small .carousel-next_1_small {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        color: #fff;
+        opacity: 0.7;
+        text-align: center;
+        font-size: 40px;
+        text-decoration: none;
+    }
+    .carousel_1_small .carousel-prev_1_small:hover, .carousel_1_small .carousel-next_1_small:hover {
+        opacity: 1;
+    }
+    .carousel_1_small .carousel-prev_1_small {
+        left: -125px;
+    }
+    .carousel_1_small .carousel-next_1_small {
+        right: -125px;
+    }
+
+    .carousel-next-icon_1_small {
+        color: #343a40;
+    }
+
+    .carousel-prev-icon_1_small {
+        color: #343a40;
+    }
